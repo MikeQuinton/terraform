@@ -9,4 +9,3 @@ terraform.tfstate.backup
 .terraform.lock.hcl
 
 # Ignore directory (Anything that needs to checked before commiting)
-/aws-budget/
