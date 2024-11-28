@@ -1,0 +1,12 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore .terraform directory (provider plugins)
+.terraform/
+
+# Ignore .terraform.lock.hcl if needed
+.terraform.lock.hcl
+
+# Ignore directory (Anything that needs to checked before commiting)
+/aws-budget/
